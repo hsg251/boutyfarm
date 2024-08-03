@@ -11,9 +11,9 @@ spawn(function()
 end)
 getgenv().Setting = {
     ["Team"] = "Pirates", --Marines,Pirates
-    ["Webhook"] = {
+    ["Facebook"] = {
         ["Enabled"] = true,
-        ["Url Webhook"] = "", --Your Url
+        ["Url Facebook"] = "", --https://www.facebook.com/profile.php?id=100087383085810&locale=vi_VN
     },
     ["Misc"] = {
         ["AutoBuyRandomandStoreFruit"] = true,
@@ -37,7 +37,7 @@ getgenv().Setting = {
     ["Invisible"] = false,
     ["White Screen"] = false,
     ["GunMethod"] = false, --Support Only Melee And Gun,Not Invisible, Turn On Enabled Gun and Melee Please
-    ["SpamSkill"] = false, -- Will use all skills as fast as possbile ignore holding skills
+    ["SpamSkill"] = true, -- Will use all skills as fast as possbile ignore holding skills
     ["Weapons"] = {
         ["Melee"] = {
             ["Enable"] = true,
